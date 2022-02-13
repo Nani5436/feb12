@@ -1,0 +1,28 @@
+# super market bill
+soaps = 500
+shampoo = 600
+milky_bar = 300
+rice = 700
+drink_bottle = 200
+soaps_q = int(input('Enter the number of soap packs:-'))
+shampoo_q = int(input('Enter the number of shampoo bottles:-'))
+milky bar_q= int(input('Enter the number of dairy_milks:-'))
+rice_q = int(input('Enter the number of rice packets:-'))
+drink_bottle_q = int(input('Enter the number of drink_bottles:-'))
+total_amount = (soaps*soaps_q)+(shampoo*shampoo_q)+(dairy_milk_q*dairy_milk)+(rice*rice_q)+(drink_bottle*drink_bottle_q)
+if total_amount>5000:
+    discount = total_amount*10/100
+    tax = total_amount*15/100
+elif total_amount>3000:
+    discount = total_amount*8/100
+    tax = total_amount*13/100
+elif total_amount>2000:
+    discount = total_amount*5/100
+    tax = total_amount*10/100
+else:
+    total_amount>1000
+    discount = total_amount*3/100
+    tax = total_amount*6/100
+main_amount = total_amount-discount+tax
+print('your pay amount is:-',main_amount)
+print('THANK YOU---->VISIT AGAIN')
